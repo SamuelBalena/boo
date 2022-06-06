@@ -1,6 +1,9 @@
-@use 'teste';
+/* Helpers */
+@use 'helpers/spacing';
+@use 'helpers/helpers';
 
-.container {
-    display: flex;
-    margin: 0 auto;
-}
+/* Resets */
+@use 'resets';
+
+/* Fonts Style */
+@use 'fonts/fonts';
